@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SpinnerStyle">
+        <item name="android:dropDownSelector">@drawable/arrowdrop_down</item> <!-- Dropdown arrow -->
+        <item name="android:popupBackground">@android:color/white</item> <!-- Optional background color for the dropdown menu -->
+    </style>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/PgmainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_id" />
+
+    <ScrollView
+        android:id="@+id/contentScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="594dp"
+        android:layout_above="@id/layout11"
+        android:layout_below="@+id/adView"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:padding="16dp">
+
+        <!-- TextView to display the page content -->
+        <TextView
+            android:id="@+id/pageContentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="80dp"
+            android:lineSpacingExtra="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="50dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play_button2"
+            android:background="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/starbtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star_10347517"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/pagesLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Pages"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center" />
+
+        <!-- Spinner for Page Selection (Dropdown) -->
+        <Spinner
+            android:id="@+id/pageDropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/spinner_bg"
+            android:padding="5dp" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/zoomInBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zoom_in"
+            android:background="@color/white"
+            android:contentDescription="Zoom In" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/zoomOutBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zoom_out"
+            android:background="@color/white"
+            android:contentDescription="Zoom Out" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/daybtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/day"
+            android:background="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/nextbtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play_button"
+            android:background="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MynovelApp</string>
+    <string name="ad_id">ca-app-pub-4239247626748157~9415253266</string>
+    <string name="banner_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="privacy_policy_URL">https://docs.google.com/document</string>
+    <string name="share_messsage">Check out this amazing app: [Your App Link]</string>
+    <string name="read_more_novels">market://search?q=novels&amp;c=apps</string>
+
+</resources>

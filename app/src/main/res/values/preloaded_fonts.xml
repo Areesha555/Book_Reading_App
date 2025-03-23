@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/adlam_display</item>
+        <item>@font/akaya_kanadaka</item>
+        <item>@font/anonymous_pro</item>
+        <item>@font/ar_one_sans</item>
+        <item>@font/b612_mono</item>
+        <item>@font/baloo_bhaina_2</item>
+    </array>
+</resources>
