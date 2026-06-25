@@ -1,0 +1,53 @@
+# Book Reading App
+
+> A focused, distraction-free eBook reader for Android with bookmarks, search, and adaptive themes.
+
+![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white)
+![Language](https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
+![Monetisation](https://img.shields.io/badge/Ads-AdMob-FFCA28?style=flat&logo=google&logoColor=black)
+
+## Overview
+
+An Android eBook reader built for comfort and simplicity. Users can bookmark pages, search content, and switch between day and night modes — all with lightweight local storage and revenue-generating ads that don't disrupt the reading experience.
+
+## Features
+
+- **Bookmarking** — Save any page and jump back to it instantly; persists across sessions
+- **Page search** — Navigate directly to any page
+- **Day / Night mode** — Adaptive themes for comfortable reading in any lighting
+- **AdMob integration** — Non-intrusive ads for passive monetisation
+- **Lightweight storage** — Local bookmark sync with zero data loss
+
+## Tech Stack
+
+| Component    | Technology                        |
+|--------------|-----------------------------------|
+| Language     | Kotlin                            |
+| Architecture | MVVM                              |
+| Storage      | Room Database / SharedPreferences |
+| Ads          | Google AdMob                      |
+| UI           | XML Layouts / ViewBinding         |
+| Build        | Gradle (Kotlin DSL), Android SDK  |
+
+## Getting Started
+
+1. Clone the repo
+   ```bash
+   git clone https://github.com/Areesha555/Book_Reading_App.git
+   ```
+2. Open in **Android Studio**
+3. Add your AdMob App ID to `AndroidManifest.xml`:
+   ```xml
+   <meta-data
+       android:name="com.google.android.gms.ads.APPLICATION_ID"
+       android:value="YOUR_ADMOB_APP_ID"/>
+   ```
+4. Run on emulator or physical device (API 21+)
+
+## Screenshots
+
+> _Coming soon_
+
+## License
+
+MIT
